@@ -1,0 +1,57 @@
+/* First Form */
+.primary-button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-image: linear-gradient(to right, #E64B6B, #FEA846);
+    color: white;
+    border-radius: 50px;
+    transition: 300ms;
+}
+.primary-button:hover{
+    box-shadow: #E64B6B 0px 1px 10px;
+    transition: 300ms;
+}
+.primary-input{
+    width: 300px;
+    outline: none;
+    border: 1px solid #E64B6B;
+    border-radius: 5px;
+    padding: 10px;
+
+    transition: 300ms;
+}
+.primary-input:hover, .primary-input:focus{
+    transition: 300ms;
+    box-shadow: #FEA846 0px 1px 10px;
+}
+
+
+
+/* Second Form */
+.secondary-button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-image: linear-gradient(to right, #37BD93, #385AFA);
+    color: white;
+    border-radius: 50px;
+    transition: 300ms;
+}
+.secondary-button:hover{
+    box-shadow: #37BD93 0px 1px 10px;
+    transition: 300ms;
+}
+.secondary-input{
+    width: 300px;
+    outline: none;
+    border: 1px solid #385AFA;
+    border-radius: 5px;
+    padding: 10px;
+
+    transition: 300ms;
+}
+.secondary-input:hover, .secondary-input:focus{
+    transition: 300ms;
+    box-shadow: #3875FA 0px 1px 10px;
+}
